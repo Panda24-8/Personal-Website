@@ -1,0 +1,230 @@
+.arrow {
+    display: flex;
+    position: relative;
+    width: 56px;
+    height: 52px;
+    overflow: hidden;
+    margin: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+}
+.design-arrow {
+    margin-left: 320px;
+    margin-top: 60px;
+}
+.arrow:before,
+.arrow:after {
+    content: "";
+    position: absolute;
+    border-radius: 60%;
+    inset: 5px;
+}
+.arrow:before {
+    border: 4px solid #e87e06;
+    transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+.arrow:after {
+    border: 4px solid #eaa960;
+    transform: scale(1.3);
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 0;
+}
+.arrow:hover:before,
+.arrow:focus:before {
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.arrow:hover:after,
+.arrow:focus:after {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+      transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+.arrow-box {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-elem {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 16px 20px ;
+    transform: rotate(180deg);
+    fill: #662e00;
+}
+.arrow:hover .arrow-box,
+.arrow:focus .arrow-box {
+    transition: 0.4s;
+    transform: translateX(-60px);
+}
+.login-form-section {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 420px;
+    height: 580px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #e09b70;
+    color: #fff;
+    border: 1px solid #333;
+}
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 125px;
+    color: #ffffff;
+}
+.title::before {
+    width: 18px;
+    height: 18px;
+}
+.title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+}
+.title::before,
+.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 88px;
+    background-color: #fffcfc;
+} 
+.message {
+    font-size: 18px;
+    color: rgba(87, 36, 9, 0.7);
+    margin-top: 0;
+}
+.signin {
+    font-size: 18px;
+    color: rgba(87, 36, 9, 0.7);
+}
+.signin {
+    text-align: center;
+}
+.signin a {
+    color: #382102;
+} 
+.signin a:hover {
+    text-decoration: underline rgb(103, 52, 2);
+}
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+} 
+.form label {
+    position: relative;
+}
+.form label .input {
+    background-color: #756032;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+.form label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+} 
+.form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+}
+.form label .input:focus + span,
+.form label .input:valid + span {
+    color: #5b2609;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+.input {
+    font-size: medium;
+    gap: 6px;
+} 
+.submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transform: .3s ease;
+    background-color: #c4450f;
+}
+.submit:hover {
+    background-color: #ed520fd1;
+}
+@keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+}
+.Google {
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .6s ease;
+    border: 1px solid;
+}
+.Google svg {
+    height: 24px;
+  }
+.Google:hover {
+    transform: scale(1.02);
+  }

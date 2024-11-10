@@ -1,0 +1,148 @@
+body {
+    background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2022/03/hinh-nen-mau-nau-dam-dep.jpg);
+    background-size: cover;
+    margin-right: auto;
+}
+.colored-section {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/736/644/non_2x/abstract-3d-modern-luxury-banner-design-template-golden-wave-paper-cut-with-gold-ribbon-lines-on-brown-background-vector.jpg);
+    background-size: cover;
+    color: white;
+    height: 35vh;
+    opacity: 0.5;
+    box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+}
+.container-fluid{
+    padding: 4% 20%;
+}
+.navbar-nav {
+    flex-grow: 1;
+    padding: 0 1.8px;
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.button-header {
+    position: relative;
+    padding: 12px 35px;
+    background: #fec195;
+    color: #ffffff;
+    border: 2px solid #fec195;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.button-header:hover {
+    background: transparent;
+    color: #fec195;
+    box-shadow: 0 0 25px #fec1958c;
+}  
+.fil0 {
+    fill: #fffdef;
+}  
+.but {
+    border: none;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: rgb(104, 49, 1); 
+    color: white; 
+    border-radius: 5%;
+    font-weight: bold; 
+}
+.button1:hover {
+    background-color: #be7612;
+    color: rgb(59, 27, 3);
+    font-weight: bold;
+}
+.icon1 {
+    width: 40px;
+    height: 40px;
+    color: rgb(87, 18, 18);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.icon1:hover {
+    background: transparent;
+    color: #fec195;
+    box-shadow: 0 0 25px #fec1958c;
+    border-radius: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-menu {
+    right: 200px;
+}
+.noidung {
+    background-color: #ffffff;
+    width: 85%;
+    margin-left: 15vh;
+    margin-bottom: 20px;
+}
+.noidung img {
+    margin-left: 20vh
+}
+.noidung h1 {
+    padding: 40px 20px 0;
+    color: rgb(97, 44, 4);
+    font-weight: bold;
+    font-family: Nunito ExtraBold;
+}
+.noidung h2 {
+    padding: 10px 35px 0 50px;
+    color: rgb(174, 89, 27);
+    font-family: Nunito ExtraBold;
+}
+.noidung p {
+    color: #9e630f;
+    font-weight: 500;
+    font-size: medium;
+    text-align: justify;
+    display: flex;
+    margin-left: 18vh;
+    width: 80%;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #301702;
+    opacity: 0.7;
+    box-shadow: 0 10px 10px rgb(35, 16, 0) inset;
+}
+.footer h4 {
+    margin-bottom: 15px;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.footer p {
+    color: #ffffff;
+}
+.brands {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 2px 0;
+    height: 30px;
+    width: 30px;
+    color: #ffffff65;
+}
+.brands:hover {
+    color: #ffffff;
+}
+.fa-heart {
+    color: #ffffff;
+}

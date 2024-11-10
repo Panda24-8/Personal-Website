@@ -1,0 +1,237 @@
+body {
+    background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2022/03/hinh-nen-mau-nau-dam-dep.jpg);
+    background-size: cover;
+    margin-right: auto;
+}
+.colored-section {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/736/644/non_2x/abstract-3d-modern-luxury-banner-design-template-golden-wave-paper-cut-with-gold-ribbon-lines-on-brown-background-vector.jpg);
+    background-size: cover;
+    color: white;
+    height: 35vh;
+    opacity: 0.5;
+    box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 4px 9px 21px 2px rgba(0,0,0,0.59);
+}
+.container-fluid{
+    padding: 4% 20%;
+}
+.navbar-nav {
+    flex-grow: 1;
+    padding: 0 1.8px;
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.button-header {
+    position: relative;
+    padding: 12px 35px;
+    background: #fec195;
+    color: #ffffff;
+    border: 2px solid #fec195;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.button-header:hover {
+    background: transparent;
+    color: #fec195;
+    box-shadow: 0 0 25px #fec1958c;
+}  
+.fil0 {
+    fill: #fffdef;
+}  
+.but {
+    border: none;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: rgb(104, 49, 1); 
+    color: white; 
+    border-radius: 5%;
+    font-weight: bold; 
+}
+.button1:hover {
+    background-color: #be7612;
+    color: rgb(59, 27, 3);
+    font-weight: bold;
+}
+.carousel-item {
+   opacity: 0.5;
+}
+.carousel-inner{
+    margin: 8vh 8vh;
+}
+.icon1 {
+    width: 40px;
+    height: 40px;
+    color: rgb(87, 18, 18);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.icon1:hover {
+    background: transparent;
+    color: #fec195;
+    box-shadow: 0 0 25px #fec1958c;
+    border-radius: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-menu {
+    right: 200px;
+}
+.dichvu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+p {
+    color: #fec195;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.menu-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-row_item {
+    width: 30%;
+    height: 320px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.menu-row_item img {
+    width: 100%;
+    height: 320px;
+    border-radius: 16px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 16px;
+    background-color: rgba(255, 214, 160, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: bottom 0.3s ease;
+    opacity: 0;
+}
+.menu-row_item:hover .overlay {
+    opacity: 80%;
+}
+.menu-row_item:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+    color: #643a00;
+}
+.khonggian {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.khonggian-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: rgb(156, 109, 90);
+}
+.khonggian-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.khonggian-col p {
+    padding: 0;
+    color: #ffffff;
+}
+.khonggian-col h3 {
+    color: #ffffff;
+}
+.accordion {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+}
+.accordion-button {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #301702;
+    opacity: 0.7;
+    box-shadow: 0 10px 10px rgb(35, 16, 0) inset;
+}
+.footer h4 {
+    margin-bottom: 15px;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.footer p {
+    color: #ffffff;
+}
+.brands {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 2px 0;
+    height: 30px;
+    width: 30px;
+    color: #ffffff65;
+}
+.brands:hover {
+    color: #ffffff;
+}
+.fa-heart {
+    color: #ffffff;
+}
+.gioithieu {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    background-image: url(https://danangbest.com/uploads/news/trang-trai-ca-phe-chon-da-lat.webp);
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+.gioithieu:hover {
+    opacity: 70%;
+}
+.gioithieu h2 {
+    color: #ffffff;
+    background-color: #301702;
+    height: 20vh;
+    margin-bottom: 40px;
+    padding: 18px;
+    opacity: 90%;
+}
